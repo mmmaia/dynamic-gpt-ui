@@ -16,8 +16,8 @@ In this proof of concept, the OpenAI API is used with `text-davinci-003`.
 
 This app is a simple web application that helps to evaluate a Senior Software Engineer candidate interviewing at a startup. It collects the candidate's answer to a question and outputs some thoughtful feedback. The app is built using the Flask framework and uses the OpenAI API for generating the UI, the question, and the feedback.
 
-[![Question](/images/dynamic-gpt-ui-question.png?raw=true)
-[![Feedback](/images/dynamic-gpt-ui-feedback.png?raw=true)
+[Question](/images/dynamic-gpt-ui-question.png?raw=true)
+[Feedback](/images/dynamic-gpt-ui-feedback.png?raw=true)
 
 ### Requirements
 
