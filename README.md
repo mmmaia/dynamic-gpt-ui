@@ -29,8 +29,8 @@ This app is a simple web application that helps to evaluate a Senior Software En
 
 ### Installation
 
-1. Clone the repository: `git clone https://github.com/mmmaia/dynamic-gpt-app.git`
-2. Change into the project directory: `cd dynamic-gpt-app/app`
+1. Clone the repository: `git clone https://github.com/mmmaia/dynamic-gpt-ui.git`
+2. Change into the project directory: `cd dynamic-gpt-ui`
 3. Create a virtual environment: `python3 -m venv venv`
 4. Activate the virtual environment: `source venv/bin/activate`
 5. Install the required packages: `pip install -r requirements.txt`
