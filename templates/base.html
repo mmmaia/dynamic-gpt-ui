@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic GPT App</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+</head>
+
+<body class="h-full font-sans antialiased font-normal leading-normal bg-white">
+  <div class="main flex flex-col">
+    <div class="px-3 lg:px-0 h-full">
+      <div class="container grid mx-auto my-8 text-center">
+        <h1 class="text-3xl font-bold my-12">
+          {{ title }}
+        </h1>
+        <div class="mx-auto w-1/2 p-8">
+          {{ content|safe }}
+        </div>
+        <div class="mx-auto mt-32">
+          <a href="https://github.com/mmmaia/dynamic-gpt-ui">
+            <img src="https://simpleicons.now.sh/github/000" class="mr-4 w-[32px] h-[32px] inline-block">
+            <img src="https://badgen.net/badge/license/MIT/blue?icon=github" alt="MIT LICENSE" class="inline-block"/>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
