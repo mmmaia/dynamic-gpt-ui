@@ -16,8 +16,10 @@ In this proof of concept, the OpenAI API is used with `text-davinci-003`.
 
 This app is a simple web application that helps to evaluate a Senior Software Engineer candidate interviewing at a startup. It collects the candidate's answer to a question and outputs some thoughtful feedback. The app is built using the Flask framework and uses the OpenAI API for generating the UI, the question, and the feedback.
 
-[![Question](/images/dynamic-gpt-ui-question.png?raw=true)
-[![Feedback](/images/dynamic-gpt-ui-feedback.png?raw=true)
+<img src="https://user-images.githubusercontent.com/165865/216793631-b07702bc-f236-4afa-b909-b50fc4186528.png" alt="Question screenshot" width="50%" />
+
+<img src="https://user-images.githubusercontent.com/165865/216793654-d3b4f756-8855-4795-8f19-ab32c8a638b7.png" alt="Feedback screenshot" width="50%" />
+
 
 ### Requirements
 
@@ -27,8 +29,8 @@ This app is a simple web application that helps to evaluate a Senior Software En
 
 ### Installation
 
-1. Clone the repository: `git clone https://github.com/mmmaia/dynamic-gpt-app.git`
-2. Change into the project directory: `cd dynamic-gpt-app/app`
+1. Clone the repository: `git clone https://github.com/mmmaia/dynamic-gpt-ui.git`
+2. Change into the project directory: `cd dynamic-gpt-ui`
 3. Create a virtual environment: `python3 -m venv venv`
 4. Activate the virtual environment: `source venv/bin/activate`
 5. Install the required packages: `pip install -r requirements.txt`
